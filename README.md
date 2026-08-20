@@ -1,2 +1,17 @@
-# overthewire-bandit-writeups
-Solutions and learning notes from the OverTheWire Bandit wargame.
+# OverTheWire Bandit Writeups
+
+A collection of walkthroughs and notes from the OverTheWire Bandit wargame.
+
+## Topics Covered
+
+- Linux Fundamentals
+- SSH
+- File Navigation
+- Permissions
+- Text Processing
+- Networking
+- Scripting
+
+## Reference
+
+https://overthewire.org/wargames/bandit/

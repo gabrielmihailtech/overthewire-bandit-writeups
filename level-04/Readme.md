@@ -61,6 +61,34 @@ cat ./-file07
 
 The output contained the password for Bandit Level 5.
 
+## Alternative Approach
+
+A more efficient solution is to identify the file type before opening each file:
+
+```bash
+file ./*
+```
+
+Example output:
+
+```text
+./-file00: data
+./-file01: data
+./-file02: data
+...
+./-file07: ASCII text
+...
+```
+
+The `file` command identifies the type of each file. Since the challenge specifies that only one file is human-readable, the file reported as `ASCII text` can be inspected directly:
+
+```bash
+cat ./-file07
+```
+
+This reveals the password for the next level.
+```
+
 ## Commands Used
 
 ```bash

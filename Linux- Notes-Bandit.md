@@ -18,7 +18,7 @@ When I use it
 •	Viewing directory contents
 •	Investigating Linux systems
 
-Cat
+cat
 - `cat` displays the contents of a file directly in the terminal.
 
 Example:
@@ -38,7 +38,7 @@ When I use it
 •	Viewing permissions
 •	Linux investigations
 
-Exit
+exit
 - Closes the current shell session.
 
 When I use it
@@ -54,7 +54,7 @@ cat ./.file2
 When I use it
 •	Accessing files with special names
 
-Cd
+cd
 - Changes the current directory.
 
 Example:
@@ -63,7 +63,7 @@ Cd inhere
 When I use it
 •	Navigating the Linux filesystem
 
-File
+file
 - `file` command identifies the type of each file
 
 Example: 
@@ -93,7 +93,7 @@ When I use it
 •	Reducing clutter from permission-denied errors
 •	Large filesystem searches
 
-Pwd
+pwd
 - Displays the current working directory.
 
 When I use it

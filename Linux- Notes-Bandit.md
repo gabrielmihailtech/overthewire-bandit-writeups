@@ -73,7 +73,7 @@ When I use it
 •	Determining whether a file contains text, binary data, archives, etc.
 
 find
--Searches for files and directories.
+- Searches for files and directories.
 
 Example:
 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null

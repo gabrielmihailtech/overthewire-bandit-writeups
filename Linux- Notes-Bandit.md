@@ -2,7 +2,7 @@ Linux commands- Bandit
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Commands:
-ssh
+**ssh
 - `ssh` is used to connect securely to a remote server.
 
 When I use it
@@ -10,7 +10,7 @@ When I use it
 •	SSH access during Bandit challenges
 •	Linux administration
 
-ls
+**ls
 - `ls` lists the files and directories in the current location.
 
 When I use it
@@ -18,7 +18,7 @@ When I use it
 •	Viewing directory contents
 •	Investigating Linux systems
 
-cat
+**cat
 - `cat` displays the contents of a file directly in the terminal.
 
 Example:
@@ -30,7 +30,7 @@ When I use it
 •	Viewing passwords during Bandit
 •	Checking configuration files
 
-ls -la
+**ls -la
 - `ls -la` displays detailed information, including hidden files and permissions.
 
 When I use it
@@ -38,14 +38,14 @@ When I use it
 •	Viewing permissions
 •	Linux investigations
 
-exit
+**exit
 - Closes the current shell session.
 
 When I use it
 •	Logging out of Bandit
 •	Ending SSH sessions
 
-cat  ./-
+**cat  ./-
 - `cat ./-` Used when a file is named -.
 
 Example:
@@ -54,7 +54,7 @@ cat ./.file2
 When I use it
 •	Accessing files with special names
 
-cd
+**cd
 - Changes the current directory.
 
 Example:
@@ -63,7 +63,7 @@ Cd inhere
 When I use it
 •	Navigating the Linux filesystem
 
-file
+**file
 - `file` command identifies the type of each file
 
 Example: 
@@ -72,7 +72,7 @@ File ./* or  file ./-file07
 When I use it
 •	Determining whether a file contains text, binary data, archives, etc.
 
-find
+**find
 - Searches for files and directories.
 
 Example:
@@ -83,7 +83,7 @@ When I use it
 •	Locating files
 •	Filtering by owner, group, size, name or permissions
 
-2>/dev/null
+**2>/dev/null
 - Suppresses error messages.
 
 Example:
@@ -93,7 +93,7 @@ When I use it
 •	Reducing clutter from permission-denied errors
 •	Large filesystem searches
 
-pwd
+**pwd
 - Displays the current working directory.
 
 When I use it
@@ -101,7 +101,7 @@ When I use it
 •	Troubleshooting navigation issues
 •	Working with complex directory structures
 
-./
+**./
 - References the current directory.
 
 Examples:
@@ -114,7 +114,7 @@ When I use it:
 •	Using relative paths
 •	Running files and scripts from the current directory
 
-grep
+**grep
 -Searches for a specific word or pattern inside a file.
 
 Example
@@ -130,4 +130,45 @@ When I use it:
 . Filtering large amounts of text
 . Looking for usernames, IP addresses, domains, hashes, or passwords
 . Bandit challenges involving text searches
+
+**sort
+-Sorts lines of text alphabetically.
+
+Example
+sort data.txt
+
+When I use it
+
+-Organizing text output
+-Preparing data for filtering
+-Processing logs
+-Working with uniq
+
+**uniq
+Removes or counts duplicate lines.
+
+Example
+sort data.txt | uniq -c
+
+When I use it
+
+-Finding duplicate entries
+-Identifying unique values
+-Analyzing logs
+-Processing large text files
+
+**Pipe (|)
+
+-Passes the output of one command as input to another command.
+
+Example
+sort data.txt | uniq -c
+
+When I use it
+
+-Combining commands
+-Filtering output
+-Text processing
+-Linux investigations
+-Log analysis
 

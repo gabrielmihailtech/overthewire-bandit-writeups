@@ -145,7 +145,7 @@ When I use it
 -Working with uniq
 
 **uniq
-Removes or counts duplicate lines.
+-Removes or counts duplicate lines.
 
 Example
 sort data.txt | uniq -c

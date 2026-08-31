@@ -108,7 +108,8 @@ Examples:
 cat ./-
 cat ./.file2
 
-When I use it
+When I use it:
+
 •	Accessing files with special characters
 •	Using relative paths
 •	Running files and scripts from the current directory

@@ -112,3 +112,21 @@ When I use it
 •	Accessing files with special characters
 •	Using relative paths
 •	Running files and scripts from the current directory
+
+grep
+-Searches for a specific word or pattern inside a file.
+
+Example
+grep "millionth" data.txt
+
+Output Example
+millionth password_here
+
+When I use it:
+
+. Searching for specific words in files
+. Finding indicators during investigations
+. Filtering large amounts of text
+. Looking for usernames, IP addresses, domains, hashes, or passwords
+. Bandit challenges involving text searches
+

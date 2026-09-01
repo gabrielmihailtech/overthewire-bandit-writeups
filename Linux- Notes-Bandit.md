@@ -173,3 +173,17 @@ When I use it
 -Linux investigations
 -Log analysis
 
+**strings
+-Extracts readable text from binary files.
+
+Example
+strings data.txt
+
+
+When I use it
+
+-Investigating binary files
+-Malware analysis
+-Extracting readable content from executables
+-Solving Bandit challenges involving binary data
+

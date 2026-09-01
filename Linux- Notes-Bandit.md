@@ -2,6 +2,7 @@ Linux commands- Bandit
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Commands:
+
 **ssh
 - `ssh` is used to connect securely to a remote server.
 

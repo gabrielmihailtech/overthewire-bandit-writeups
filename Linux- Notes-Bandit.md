@@ -3,6 +3,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Commands:
 
+---
 **ssh
 - `ssh` is used to connect securely to a remote server.
 
@@ -11,6 +12,7 @@ When I use it
 •	SSH access during Bandit challenges
 •	Linux administration
 
+---
 **ls
 - `ls` lists the files and directories in the current location.
 
@@ -19,6 +21,7 @@ When I use it
 •	Viewing directory contents
 •	Investigating Linux systems
 
+---
 **cat
 - `cat` displays the contents of a file directly in the terminal.
 
@@ -31,6 +34,7 @@ When I use it
 •	Viewing passwords during Bandit
 •	Checking configuration files
 
+---
 **ls -la
 - `ls -la` displays detailed information, including hidden files and permissions.
 
@@ -39,6 +43,7 @@ When I use it
 •	Viewing permissions
 •	Linux investigations
 
+---
 **exit
 - Closes the current shell session.
 
@@ -46,6 +51,7 @@ When I use it
 •	Logging out of Bandit
 •	Ending SSH sessions
 
+---
 **cat  ./-
 - `cat ./-` Used when a file is named -.
 
@@ -55,6 +61,7 @@ cat ./.file2
 When I use it
 •	Accessing files with special names
 
+---
 **cd
 - Changes the current directory.
 
@@ -64,6 +71,7 @@ Cd inhere
 When I use it
 •	Navigating the Linux filesystem
 
+---
 **file
 - `file` command identifies the type of each file
 
@@ -73,6 +81,7 @@ File ./* or  file ./-file07
 When I use it
 •	Determining whether a file contains text, binary data, archives, etc.
 
+---
 **find
 - Searches for files and directories.
 
@@ -84,6 +93,7 @@ When I use it
 •	Locating files
 •	Filtering by owner, group, size, name or permissions
 
+---
 **2>/dev/null
 - Suppresses error messages.
 
@@ -94,6 +104,7 @@ When I use it
 •	Reducing clutter from permission-denied errors
 •	Large filesystem searches
 
+---
 **pwd
 - Displays the current working directory.
 
@@ -102,6 +113,7 @@ When I use it
 •	Troubleshooting navigation issues
 •	Working with complex directory structures
 
+---
 **./
 - References the current directory.
 
@@ -115,6 +127,7 @@ When I use it:
 •	Using relative paths
 •	Running files and scripts from the current directory
 
+---
 **grep
 -Searches for a specific word or pattern inside a file.
 
@@ -132,6 +145,7 @@ When I use it:
 . Looking for usernames, IP addresses, domains, hashes, or passwords
 . Bandit challenges involving text searches
 
+---
 **sort
 -Sorts lines of text alphabetically.
 
@@ -145,6 +159,7 @@ When I use it
 -Processing logs
 -Working with uniq
 
+---
 **uniq
 -Removes or counts duplicate lines.
 
@@ -158,6 +173,7 @@ When I use it
 -Analyzing logs
 -Processing large text files
 
+---
 **Pipe (|)
 
 -Passes the output of one command as input to another command.
@@ -173,6 +189,7 @@ When I use it
 -Linux investigations
 -Log analysis
 
+---
 **strings
 -Extracts readable text from binary files.
 
@@ -186,4 +203,19 @@ When I use it
 -Malware analysis
 -Extracting readable content from executables
 -Solving Bandit challenges involving binary data
+
+---
+**tr
+-Translates or replaces characters from one set to another.
+
+Example
+tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
+
+When I use it
+
+-Decoding ROT13 text
+-Character substitution
+-Simple text transformations
+-Processing command output
+-Bandit challenges involving encoded text
 

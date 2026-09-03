@@ -218,4 +218,7 @@ When I use it
 -Simple text transformations
 -Processing command output
 -Bandit challenges involving encoded text
-
+-Feeding file contents into commands
+-Text processing workflows
+-Avoiding the use of cat when input can be redirected directly
+-Linux automation and scripting

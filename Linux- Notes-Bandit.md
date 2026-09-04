@@ -222,3 +222,114 @@ When I use it
 -Text processing workflows
 -Avoiding the use of cat when input can be redirected directly
 -Linux automation and scripting
+
+---
+**mktemp -d
+
+Description
+Creates a temporary directory.
+
+Example
+mktemp -d
+
+When I use it
+
+-Creating temporary workspaces
+-File analysis
+-Malware investigations
+-Extracting archives safely
+
+---
+**cp
+
+Description
+Copies files and directories.
+
+Example
+cp ~/data.txt .
+
+
+When I use it
+
+-Creating backups
+-Copying files to a working directory
+-Preserving original files
+
+---
+**mv
+
+Description
+Moves or renames files.
+
+Example
+mv data data.gz
+
+
+When I use it
+
+-Renaming files
+-Preparing files for decompression
+-Organizing directories
+
+---
+**xxd
+
+Description
+Creates or reverses hexdumps.
+
+Example
+xxd -r data.txt > data
+
+
+When I use it
+
+-Converting hexdumps back to binary files
+-File forensics
+-Malware analysis
+-Binary data investigations
+
+---
+**gunzip
+
+Description
+Decompresses gzip archives.
+
+Example
+gunzip data.gz
+
+When I use it
+
+-Extracting gzip archives
+-Log investigation
+-File recovery
+
+---
+**bunzip2
+
+Description
+Decompresses bzip2 archives.
+
+Example
+bunzip2 data.bz2
+
+When I use it
+
+-Extracting bzip2 archives
+-Working with compressed Linux files
+
+---
+**tar
+
+Description
+Creates or extracts tar archives.
+
+Example
+tar -xf data.tar
+
+
+When I use it
+
+-Extracting archives
+-Packaging files
+-Linux administration
+-Incident response investigations
